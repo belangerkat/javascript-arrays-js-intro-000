@@ -18,3 +18,23 @@ function destructivelyAddElementToEndOfArray(array, element) {
 function accessElementInArray(array, index) {
   return element;
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
+}
+
+function removeElementFromBeginningOfArray(array) {
+  array.slice(1)
+  return array
+}
+
+destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
+
+function removeElementFromEndOfArray(array) {
+  array.slice(0, iceCreams.length - 1)
+  return array
+}
